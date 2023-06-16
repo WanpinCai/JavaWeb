@@ -6,6 +6,10 @@ public class CalculatorTest<sout> {
 
         int result = c.add(1,2);
         System.out.println(result);
+
+        //反射
+        String str = "abc";
+
     }
 
 }

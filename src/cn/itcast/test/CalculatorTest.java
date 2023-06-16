@@ -1,4 +1,4 @@
-package test;
+package cn.itcast.test;
 
 import cn.itcast.junit.Calculator;
 import org.junit.After;
@@ -32,7 +32,7 @@ public class CalculatorTest {
 //        System.out.println("I am excuted");
         Calculator c = new Calculator();
         int result = c.add(1,2);
-//        System.out.println(result);
+        System.out.println(result);
         //断言操作
         Assert.assertEquals(3,result);
     }
